@@ -1,0 +1,50 @@
+body {
+    background-color: #F6F6F6;
+    font-family: 'Times New Roman', 'Times', 'Arial';
+}
+* {
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 0.3s linear;
+}
+/*NavBar*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    background-color: #2F2F2F;
+    padding: 0 10px 0 10px;
+}
+nav .logo {
+    color: #FFCB74;
+    font-size: 25px;
+    font-weight: 600;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFCB74;
+    font-weight: 600;
+    font-size: 16px;
+}
+nav ul li {
+    display: flex;
+    position: relative;
+    text-align: center;
+    align-items: center; 
+    margin-top: 12px;
+    height: 55px;
+    padding: 0px 16px 0 16px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    background-color: #FFCB74;
+    color: #2F2F2F;
+    transition: all 0.2s linear;
+}
+nav ul li i {
+    margin-right: 5px;
+}
