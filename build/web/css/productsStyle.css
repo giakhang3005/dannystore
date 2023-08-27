@@ -1,0 +1,142 @@
+body {
+    background-color: #F6F6F6;
+    font-family: 'Times New Roman', 'Times', 'Arial';
+}
+* {
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 0.2s linear;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*Products*/
+h1 {
+    margin: 12px 0 0 30px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.item2 {
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    column-count: 3;
+    gap: 10px;
+    width: 1000px;
+}
+.item2 ul {
+    position: relative;
+    list-style: none;
+    width: 320px;
+    height: 550px;
+    transition: all .1s linear;
+}
+.item2 ul li {
+    font-family: 'Times New Roman', 'Times', 'Arial';
+}
+.item2 ul li:nth-child(2) {
+    margin-top: 2px;
+    padding-left: 2px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.item2 ul li:nth-child(3) {
+    margin-top: 4px;
+    padding-left: 2px;
+    font-size: 13px;
+}
+.item2 ul li:nth-child(4) {
+    margin-top: 10px;
+    padding-left: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.item2 ul li button {
+    position: absolute;
+    bottom: 8px;
+    transform: translate3d(58%,0, 0);
+    width: 140px;
+    height: 40px;
+}
+
+.item2 ul li button i{
+    margin-right: 5px;
+}
+.item2 ul li img {
+    height: auto;
+    width: 290px;
+    height: 290px;
+}
+
+.item2 ul:hover{
+    scale: 1.05;
+    transition: all .05s linear;
+    box-shadow: 8px 8px 7px #F7F1EA;
+}
+.item2 ul li button:hover {
+    color: #FFCB74;
+    background-color: #2F2F2F;
+    transition: all 0.2s linear;
+}
+
+/*search box*/
+.search {
+    margin: 12px 0 0 5px;
+}
+h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.input {
+    position: relative;
+    height: 20px;
+    height: 25px;
+    margin: 0 0 8px;
+}
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    margin: 8px 0 0 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 0 0 0 4px;
+    width: 90%;
+    font-family: 'Times New Roman';
+    font-size: 15px;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 90%;
+    background-color: #2F2F2F;
+    border: #FFCB74 2px solid;
+    color: #FFCB74;
+    border-radius: 14px 2px 14px 2px;
+    line-height: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+input[type="submit"]:hover {
+    background-color: #FFCB74;
+    border: #2F2F2F 2px solid;
+    color: #2F2F2F;
+    border-radius: 2px 14px 2px 14px;
+    transition: all 0.2s linear;
+}
+
+select {
+    border-radius: 5px;
+    width: 90%;
+    line-height: 40px;
+    border: 2px solid black;
+}
