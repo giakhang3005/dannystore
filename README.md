@@ -1,7 +1,7 @@
 <h1>Welcome to Dann Store - Shoes store</h1>
 
 <h3>Introduction</h3>
-This is an assignment of Java web development project (PRJ301) subject.
+This is an assignment of Java web development project (PRJ301) subject using MVC2.
 
 <h3>Using</h3>
 <ul>
