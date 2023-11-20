@@ -1,4 +1,4 @@
-<h1>Welcome to Dann Store - Shoes store</h1>
+<h1>Welcome to Danny Store - Shoes store</h1>
 
 <h3>Introduction</h3>
 This is an assignment of Java web development project (PRJ301) subject using MVC2.
@@ -21,3 +21,5 @@ This is an assignment of Java web development project (PRJ301) subject using MVC
   <li>Receipt history</li>
   <li>Admin can CRUD products, categories and users account</li>
 </ul>
+
+<br/>Contact me via khanggia85@gmail.com
